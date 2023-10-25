@@ -104,6 +104,176 @@ html{
 
 
 
+/* project */
+
+#project{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .5);
+}
+#project h1{
+    margin: 30px;
+}
+
+.gallary{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallary img{
+    width: 10%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.gallary img:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.chair{
+    color: #ffffff;
+    margin-left: 40%;
+}
+
+
+/* result  */
+
+#result{
+    background-color: black;
+    font-size: 50px;
+    padding: 90px;
+}
+
+.result-all{
+    color: #ffffff;
+    font-size: larger;
+}
+.result{
+
+     color: #ffffff;
+     text-align: center;
+     margin-bottom: 40px;
+
+}
+
+/* about     */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+#about h1{
+    color: black;
+    margin: 40px;
+}
+.about{
+    display: flex;
+}
+
+.about img{
+    height: 450px;
+    width: 1500px;
+    padding: 0px 30px ;
+}
+
+.name{
+    padding: 30px;
+}
+
+.name h2{
+    font-size: 3rem;
+}
+
+.name p{
+    font-size: 1.5rem   ;
+}
+
+/* conact */
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#contact h1{
+    margin: 50px;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    padding: 15px 20px ;
+    margin: 15px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+#massage{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px ;
+}
+
+#submit{
+    padding: 15px 20px ;
+    margin: 30px;
+    width: 15%;
+    border-radius: 25px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+#submit:hover{
+    background-color: greenyellow;
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footerr{
+    background-color: black;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px) {
 
     .heading{
